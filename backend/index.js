@@ -18,8 +18,11 @@ const port = process.env.PORT || 3000
 const app = express();
 
 app.use(express.json());
-app.use(cors({
-    origin: ["https://papaya-haupia-d7a2ac.netlify.app/","https://temp-chat-app-kappa.vercel.app/"], 
+// app.use(cors({
+//     origin: ["https://papaya-haupia-d7a2ac.netlify.app/","https://temp-chat-app-kappa.vercel.app/"], 
+//   }));
+  app.use(cors({
+    origin: 'https://subtle-conkies-7e58b6.netlify.app' // allow your Netlify origin
   }));
 
 app.get("/" , (req, res) => {

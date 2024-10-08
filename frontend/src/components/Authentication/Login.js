@@ -12,7 +12,7 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const history = useHistory();
 
-  const ENDPOINT = "https://localhost:3000"; // Updated backend endpoint
+  const ENDPOINT = "https://temp-chat-app-kappa.vercel.app/"; // Updated backend endpoint
 
   const submitHandler = async () => {
     setLoading(true);

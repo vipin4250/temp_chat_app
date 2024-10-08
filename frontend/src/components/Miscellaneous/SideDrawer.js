@@ -9,7 +9,7 @@ import { useHistory } from "react-router-dom";
 import axios from "axios";
 import "./SideDrawer.css"; // Importing custom CSS for modal
 
-const ENDPOINT = "https://localhost:3000"; // Updated backend endpoint
+const ENDPOINT = "https://temp-chat-app-kappa.vercel.app/"; // Updated backend endpoint
 
 function SideDrawer() {
   const [search, setSearch] = useState("");

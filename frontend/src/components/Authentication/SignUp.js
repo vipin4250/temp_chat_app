@@ -4,7 +4,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa"; // Import icons for show/hid
 import { useHistory } from "react-router";
 import { ChatState } from "../../Context/ChatProvider"; // Import ChatState to access context
 
-const ENDPOINT = "https://localhost:3000"; // Updated backend endpoint
+const ENDPOINT = "https://temp-chat-app-kappa.vercel.app/"; // Updated backend endpoint
 
 const Signup = () => {
   const [show, setShow] = useState(false);

@@ -19,7 +19,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: '*', 
+    origin: ["https://papaya-haupia-d7a2ac.netlify.app/","https://temp-chat-app-kappa.vercel.app/"], 
   }));
 
 app.get("/" , (req, res) => {

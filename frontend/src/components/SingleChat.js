@@ -11,7 +11,7 @@ import Lottie from "react-lottie";
 import animationData from "../animations/typing.json";
 import axios from "axios";
 
-const ENDPOINT = "https://temp-chat-app-kappa.vercel.app/"; // Your backend endpoint
+const ENDPOINT = "https://temp-chat-app-kappa.vercel.app"; // Your backend endpoint
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {

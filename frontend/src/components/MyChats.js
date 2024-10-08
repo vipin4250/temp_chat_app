@@ -8,7 +8,7 @@ import { ChatState } from "../Context/ChatProvider";
 import { AiOutlinePlus } from "react-icons/ai";
 import io from "socket.io-client"; // Import socket.io client
 
-const ENDPOINT = "https://temp-chat-app-kappa.vercel.app/"; // Replace with your backend URL
+const ENDPOINT = "https://temp-chat-app-kappa.vercel.app"; // Replace with your backend URL
 let socket;
 
 const MyChats = ({ fetchAgain }) => {

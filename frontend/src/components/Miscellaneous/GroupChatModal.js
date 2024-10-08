@@ -5,7 +5,7 @@ import { ChatState } from "../../Context/ChatProvider";
 import UserBadgeItem from "../userAvatar/UserBadgeItem";
 import UserListItem from "../userAvatar/UserListItem";
 
-const ENDPOINT = "https://temp-chat-app-kappa.vercel.app/"; // Updated backend endpoint
+const ENDPOINT = "https://temp-chat-app-kappa.vercel.app"; // Updated backend endpoint
 
 const GroupChatModal = ({ children }) => {
   const [show, setShow] = useState(false);

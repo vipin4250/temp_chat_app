@@ -21,9 +21,11 @@ app.use(express.json());
 // app.use(cors({
 //     origin: ["https://papaya-haupia-d7a2ac.netlify.app/","https://temp-chat-app-kappa.vercel.app/"], 
 //   }));
-  app.use(cors({
-    origin: 'https://subtle-conkies-7e58b6.netlify.app' // allow your Netlify origin
-  }));
+app.use(cors({
+    origin: ['http://localhost:3000', 'https://stellular-fox-3ced34.netlify.app'], // Add your frontend URL here
+    credentials: true, // This allows cookies if needed for auth
+}));
+
 
 app.get("/" , (req, res) => {
     res.send("This is my first chat app vipin");

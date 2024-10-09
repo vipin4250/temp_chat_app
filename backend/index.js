@@ -28,7 +28,7 @@ app.use(cors({
 
 
 app.get("/" , (req, res) => {
-    res.send("This is my first chat app vipin");
+    res.send("This is my first chat app vipin s");
 });
 
 app.use("/api/user", userRoutes);

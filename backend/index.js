@@ -26,7 +26,7 @@ app.use(express.json());
   }));
 
 app.get("/" , (req, res) => {
-    res.send("This is my first chat app");
+    res.send("This is my first chat app vipin");
 });
 
 app.use("/api/user", userRoutes);

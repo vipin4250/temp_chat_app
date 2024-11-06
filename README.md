@@ -1,7 +1,3 @@
-Sure! Here's an example of a README content for your repository:
-
----
-
 # Temp Chat App
 
 A simple and lightweight temporary chat application built with **Node.js** and **Socket.io** that allows users to have real-time conversations in temporary chat rooms. The application provides instant messaging with no user account creation required, making it perfect for quick and anonymous communication.
